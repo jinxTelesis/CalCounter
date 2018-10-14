@@ -9,4 +9,7 @@
     <string name="foold_total_text">Total Calories:</string>
     <string name="cal_text">Cal.</string>
     <string name="food_items_num">Food Items:</string>
+    <string name="food_name">Food Name</string>
+    <string name="date_text">Date text</string>
+    <string name="_120">120</string>
 </resources>
