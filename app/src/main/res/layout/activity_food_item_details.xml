@@ -39,6 +39,8 @@
         <TextView
             android:id="@+id/detCaloriesTitle"
             android:textSize="18sp"
+            android:text="200"
+
             android:layout_marginTop="18dp"
 
             android:layout_gravity="center_horizontal"
@@ -46,8 +48,23 @@
             android:layout_height="wrap_content" />
 
         <TextView
+            android:id="@+id/detsDateText"
+            android:text="Consumed on.."
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:layout_marginTop="14dp"
+            android:layout_gravity="center_horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginTop="45dp"
+            android:background="@drawable/circle"
+            android:layout_gravity="right"
+            android:text="@string/share_title"
+            android:id="@+id/detsSharedButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
 
 
     </LinearLayout>
