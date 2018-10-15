@@ -49,7 +49,7 @@
         android:layout_height="wrap_content" />
 
     <EditText
-        android:id="@+id/caoriesEdit"
+        android:id="@+id/caloriesEdit"
         android:padding="14dp"
         android:inputType="number"
         android:hint="@string/hint_calories"

@@ -105,7 +105,7 @@ public class DatabaseHandler extends SQLiteOpenHelper{
 
     public ArrayList<Food> getFood(){
 
-        
+
         foodList.clear(); // issue in the adapter
 
         SQLiteDatabase dba = this.getReadableDatabase();
@@ -122,11 +122,11 @@ public class DatabaseHandler extends SQLiteOpenHelper{
                 food.setFoodId(cursor.getInt(cursor.getColumnIndex(Constants.KEY_ID)));
 
                 DateFormat dateFormat = DateFormat.getDateInstance();
-                String date = dateFormat.format(new Date(cursor.getLong(cursor.getColumnIndex(Constants.DATE_NAME))));
+                String date = dateFormat.format(new Date(cursor.getLong(cursor.getColumnIndex(Constants.DATE_NAME))).getTime());
 
                 food.setRecordDate(date);
                 foodList.add(food); // this needs to be fixed
-                //ToDO
+
 
 
             } while(cursor.moveToNext());
