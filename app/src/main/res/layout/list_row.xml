@@ -16,7 +16,7 @@
         android:layout_height="wrap_content" />
 
     <TextView
-        android:id="@+id/dateText"
+        android:id="@+id/dateText2"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/name"
         android:text="@string/date_text"
